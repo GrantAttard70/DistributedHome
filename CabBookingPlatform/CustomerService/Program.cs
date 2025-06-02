@@ -22,6 +22,7 @@ builder.Services.AddSingleton<AuthService>(provider =>
     new AuthService(builder.Configuration["Jwt:Secret"] ?? throw new InvalidOperationException("JWT Secret not configured")));
 
 var jwtSecret = builder.Configuration["Jwt:Secret"]!;
+/*
 if (string.IsNullOrEmpty(jwtSecret))
 {
     Console.WriteLine("JWT Secret is null or empty!");
@@ -29,7 +30,7 @@ if (string.IsNullOrEmpty(jwtSecret))
 else
 {
     Console.WriteLine($"JWT Secret loaded from config: '{jwtSecret}' (Length: {jwtSecret.Length})");
-}
+}*/
 var key = Encoding.ASCII.GetBytes(jwtSecret);
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
