@@ -59,31 +59,49 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             }
         };
     });
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("Swagger", policy =>
+    {
+        policy.RequireAssertion(context =>
+        {
+            var httpContext = context.Resource as Microsoft.AspNetCore.Http.HttpContext;
+            if (httpContext == null) return false;
 
-builder.Services.AddAuthorization();
-
+            var path = httpContext.Request.Path;
+            return path.StartsWithSegments("/swagger");
+        });
+    });
+});
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Customer Service", Version = "v1" });
-
-    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    c.SwaggerDoc("v1", new OpenApiInfo
     {
-        Description = "JWT Authorization header using the Bearer scheme",
-        Name = "Authorization",
-        In = ParameterLocation.Header,
-        Type = SecuritySchemeType.ApiKey,
-        Scheme = "Bearer"
+        Title = "CustomerService API",
+        Version = "v1",
+        Description = "OAS 3.0 Compliant"
     });
 
+    // Add JWT Bearer authentication
+    var securityScheme = new OpenApiSecurityScheme
+    {
+        Name = "JWT Authentication",
+        Description = "Enter JWT Bearer token",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.Http,
+        Scheme = "bearer",
+        BearerFormat = "JWT",
+        Reference = new OpenApiReference
+        {
+            Id = JwtBearerDefaults.AuthenticationScheme,
+            Type = ReferenceType.SecurityScheme
+        }
+    };
+
+    c.AddSecurityDefinition(securityScheme.Reference.Id, securityScheme);
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
-        {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" }
-            },
-            Array.Empty<string>()
-        }
+        {securityScheme, Array.Empty<string>()}
     });
 });
 
@@ -120,7 +138,10 @@ Console.WriteLine(token);
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "CustomerService API V1");
+    });
 }
 
 app.UseHttpsRedirection();

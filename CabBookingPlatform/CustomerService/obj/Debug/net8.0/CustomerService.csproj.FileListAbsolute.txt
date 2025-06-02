@@ -146,3 +146,12 @@ C:\Users\grant\Documents\GitHub\DistributedHome\CabBookingPlatform\CustomerServi
 C:\Users\grant\Documents\GitHub\DistributedHome\CabBookingPlatform\CustomerService\obj\Debug\net8.0\CustomerService.genruntimeconfig.cache
 C:\Users\grant\Documents\GitHub\DistributedHome\CabBookingPlatform\CustomerService\obj\Debug\net8.0\ref\CustomerService.dll
 C:\Users\grant\Documents\GitHub\DistributedHome\CabBookingPlatform\CustomerService\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\grant\Documents\GitHub\DistributedHome\CabBookingPlatform\CustomerService\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\grant\Documents\GitHub\DistributedHome\CabBookingPlatform\CustomerService\bin\Debug\net8.0\IPAddressRange.dll
+C:\Users\grant\Documents\GitHub\DistributedHome\CabBookingPlatform\CustomerService\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\grant\Documents\GitHub\DistributedHome\CabBookingPlatform\CustomerService\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\grant\Documents\GitHub\DistributedHome\CabBookingPlatform\CustomerService\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\grant\Documents\GitHub\DistributedHome\CabBookingPlatform\CustomerService\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\grant\Documents\GitHub\DistributedHome\CabBookingPlatform\CustomerService\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\grant\Documents\GitHub\DistributedHome\CabBookingPlatform\CustomerService\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\grant\Documents\GitHub\DistributedHome\CabBookingPlatform\CustomerService\bin\Debug\net8.0\Ocelot.dll
