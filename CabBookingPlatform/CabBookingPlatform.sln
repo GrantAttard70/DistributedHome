@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingService", "BookingSe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{09B00447-27F8-4C2E-8789-FA2B994272F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "Payment\PaymentService.csproj", "{C96A0B97-D9B4-4645-B237-7A3E668401C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentService", "Payment\PaymentService.csproj", "{C96A0B97-D9B4-4645-B237-7A3E668401C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationService", "LocationService\LocationService.csproj", "{CE3682F3-EBFB-4698-80ED-49143992AA5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C96A0B97-D9B4-4645-B237-7A3E668401C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C96A0B97-D9B4-4645-B237-7A3E668401C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C96A0B97-D9B4-4645-B237-7A3E668401C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE3682F3-EBFB-4698-80ED-49143992AA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3682F3-EBFB-4698-80ED-49143992AA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3682F3-EBFB-4698-80ED-49143992AA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3682F3-EBFB-4698-80ED-49143992AA5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
