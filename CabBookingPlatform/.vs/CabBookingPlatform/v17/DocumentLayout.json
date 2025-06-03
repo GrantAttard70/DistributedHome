@@ -3,72 +3,100 @@
   "WorkspaceRootPath": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\bookingservice\\bookingservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\bookingservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\payment\\data\\paymentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|solutionrelative:payment\\data\\paymentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\bookingservice\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\payment\\services\\pricingcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|solutionrelative:payment\\services\\pricingcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\bookingservice\\data\\bookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\data\\bookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\payment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|solutionrelative:payment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\bookingservice\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\payment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|solutionrelative:payment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\PaymentService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\payment\\services\\ipricingcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\PaymentService.csproj|solutionrelative:payment\\services\\ipricingcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\payment\\services\\icabfareservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|solutionrelative:payment\\services\\icabfareservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\payment\\services\\cabfareservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|solutionrelative:payment\\services\\cabfareservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\payment\\models\\paymentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|solutionrelative:payment\\models\\paymentrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\PaymentService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\payment\\models\\paymentaudit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\PaymentService.csproj|solutionrelative:payment\\models\\paymentaudit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\payment\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|solutionrelative:payment\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\payment\\models\\cabtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|solutionrelative:payment\\models\\cabtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\payment\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\Payment.csproj|solutionrelative:payment\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\PaymentService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\payment\\paymentservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\PaymentService.csproj|solutionrelative:payment\\paymentservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\bookingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\bookingservice\\bookingservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\bookingservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\bookingservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\bookingservice\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\bookingservice\\data\\bookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\data\\bookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\bookingservice\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\bookingservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\bookingservice\\bookingservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\bookingservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\customerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\customerservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\customerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\customerservice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\apigateway\\models\\registercustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\models\\registercustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\apigateway\\apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\customerservice\\customerservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\customerservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\customerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\customerservice\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\customerservice\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\customerservice\\migrations\\20250601170459_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\migrations\\20250601170459_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\customerservice\\dtos\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,6 +117,46 @@
     {
       "AbsoluteMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\customerservice\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\customerservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\customerservice\\customerservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\customerservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\customerservice\\migrations\\20250601170459_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\migrations\\20250601170459_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\apigateway\\apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\PaymentService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\payment\\payment.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C96A0B97-D9B4-4645-B237-7A3E668401C6}|Payment\\PaymentService.csproj|solutionrelative:payment\\payment.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\apigateway\\models\\registercustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\models\\registercustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09B00447-27F8-4C2E-8789-FA2B994272F3}|ApiGateway\\ApiGateway.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\apigateway\\apigateway.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -113,10 +177,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\customerservice\\customerservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{06FD645B-EEE4-4B4A-8BC8-05EC2F1148F3}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\customerservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|c:\\users\\grant\\documents\\github\\distributedhome\\cabbookingplatform\\bookingservice\\bookingservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{C7C70E97-5157-49EC-8C05-46432D72B3BE}|BookingService\\BookingService.csproj|solutionrelative:bookingservice\\bookingservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,7 +186,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -142,108 +202,202 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ApiGateway\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ApiGateway\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-02T16:32:08.632Z"
+              "DocumentIndex": 9,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Payment\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Models\\Payment.cs",
+              "RelativeToolTip": "Payment\\Models\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:13:45.433Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ocelot.json",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\ocelot.json",
-              "RelativeDocumentMoniker": "ApiGateway\\ocelot.json",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\ocelot.json",
-              "RelativeToolTip": "ApiGateway\\ocelot.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-02T16:23:42.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookingService.csproj",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\BookingService.csproj",
-              "RelativeDocumentMoniker": "BookingService\\BookingService.csproj",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\BookingService.csproj",
-              "RelativeToolTip": "BookingService\\BookingService.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-01T21:39:41.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "CustomerService\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Properties\\launchSettings.json",
-              "RelativeToolTip": "CustomerService\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-02T17:03:14.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "BookingService\\Models\\Booking.cs",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\Models\\Booking.cs",
-              "RelativeToolTip": "BookingService\\Models\\Booking.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Title": "PaymentAudit.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Models\\PaymentAudit.cs",
+              "RelativeDocumentMoniker": "Payment\\Models\\PaymentAudit.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Models\\PaymentAudit.cs",
+              "RelativeToolTip": "Payment\\Models\\PaymentAudit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T21:31:42.243Z",
+              "WhenOpened": "2025-06-03T15:48:52.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookingDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\Data\\BookingDbContext.cs",
-              "RelativeDocumentMoniker": "BookingService\\Data\\BookingDbContext.cs",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\Data\\BookingDbContext.cs",
-              "RelativeToolTip": "BookingService\\Data\\BookingDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "PaymentRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Models\\PaymentRequestDto.cs",
+              "RelativeDocumentMoniker": "Payment\\Models\\PaymentRequestDto.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Models\\PaymentRequestDto.cs",
+              "RelativeToolTip": "Payment\\Models\\PaymentRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T21:32:20.524Z",
+              "WhenOpened": "2025-06-03T15:17:08.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CabFareService.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Services\\CabFareService.cs",
+              "RelativeDocumentMoniker": "Payment\\Services\\CabFareService.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Services\\CabFareService.cs",
+              "RelativeToolTip": "Payment\\Services\\CabFareService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:18:24.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "IPricingCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Services\\IPricingCalculator.cs",
+              "RelativeDocumentMoniker": "Payment\\Services\\IPricingCalculator.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Services\\IPricingCalculator.cs",
+              "RelativeToolTip": "Payment\\Services\\IPricingCalculator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:45:23.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICabFareService.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Services\\ICabFareService.cs",
+              "RelativeDocumentMoniker": "Payment\\Services\\ICabFareService.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Services\\ICabFareService.cs",
+              "RelativeToolTip": "Payment\\Services\\ICabFareService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:18:06.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PricingCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Services\\PricingCalculator.cs",
+              "RelativeDocumentMoniker": "Payment\\Services\\PricingCalculator.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Services\\PricingCalculator.cs",
+              "RelativeToolTip": "Payment\\Services\\PricingCalculator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:18:43.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\appsettings.json",
+              "RelativeDocumentMoniker": "Payment\\appsettings.json",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\appsettings.json",
+              "RelativeToolTip": "Payment\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T15:19:06.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Program.cs",
+              "RelativeDocumentMoniker": "Payment\\Program.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Program.cs",
+              "RelativeToolTip": "Payment\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:15:19.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Data\\PaymentDbContext.cs",
+              "RelativeDocumentMoniker": "Payment\\Data\\PaymentDbContext.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Data\\PaymentDbContext.cs",
+              "RelativeToolTip": "Payment\\Data\\PaymentDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:14:15.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CabType.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Models\\CabType.cs",
+              "RelativeDocumentMoniker": "Payment\\Models\\CabType.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Models\\CabType.cs",
+              "RelativeToolTip": "Payment\\Models\\CabType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:16:50.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Payment\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Payment\\Controllers\\PaymentController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAYwFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:14:57.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentService.csproj",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\PaymentService.csproj",
+              "RelativeDocumentMoniker": "Payment\\PaymentService.csproj",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\PaymentService.csproj",
+              "RelativeToolTip": "Payment\\PaymentService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-03T15:20:52.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\Program.cs",
               "RelativeDocumentMoniker": "BookingService\\Program.cs",
               "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\Program.cs",
               "RelativeToolTip": "BookingService\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T21:31:02.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\appsettings.json",
-              "RelativeDocumentMoniker": "CustomerService\\appsettings.json",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\appsettings.json",
-              "RelativeToolTip": "CustomerService\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-01T14:30:56.458Z"
+              "DocumentIndex": 14,
+              "Title": "BookingService.http",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\BookingService.http",
+              "RelativeDocumentMoniker": "BookingService\\BookingService.http",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\BookingService.http",
+              "RelativeToolTip": "BookingService\\BookingService.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-02T16:31:06.54Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\appsettings.json",
               "RelativeDocumentMoniker": "BookingService\\appsettings.json",
@@ -256,59 +410,189 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "BookingService\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\Models\\Booking.cs",
+              "RelativeToolTip": "BookingService\\Models\\Booking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T21:31:42.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BookingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\Data\\BookingDbContext.cs",
+              "RelativeDocumentMoniker": "BookingService\\Data\\BookingDbContext.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\Data\\BookingDbContext.cs",
+              "RelativeToolTip": "BookingService\\Data\\BookingDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T21:32:20.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "BookingController.cs",
               "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "BookingService\\Controllers\\BookingController.cs",
               "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\Controllers\\BookingController.cs",
               "RelativeToolTip": "BookingService\\Controllers\\BookingController.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAUwDwAAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAADwvzwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-01T21:32:44.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\Program.cs",
-              "RelativeDocumentMoniker": "ApiGateway\\Program.cs",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\Program.cs",
-              "RelativeToolTip": "ApiGateway\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:27:43.539Z",
+              "DocumentIndex": 19,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BookingService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BookingService\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T15:57:31.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
+              "Title": "BookingService.csproj",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\BookingService.csproj",
+              "RelativeDocumentMoniker": "BookingService\\BookingService.csproj",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\BookingService.csproj",
+              "RelativeToolTip": "BookingService\\BookingService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-01T21:39:41.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Program.cs",
               "RelativeDocumentMoniker": "CustomerService\\Program.cs",
               "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Program.cs",
               "RelativeToolTip": "CustomerService\\Program.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAADwv4QAAAAAAAAA",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAAAKcAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T17:04:12.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApiGateway.csproj",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\ApiGateway.csproj",
-              "RelativeDocumentMoniker": "ApiGateway\\ApiGateway.csproj",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\ApiGateway.csproj",
-              "RelativeToolTip": "ApiGateway\\ApiGateway.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-02T17:22:11.169Z",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\appsettings.json",
+              "RelativeDocumentMoniker": "CustomerService\\appsettings.json",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\appsettings.json",
+              "RelativeToolTip": "CustomerService\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-01T14:30:56.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "CustomerService\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Services\\AuthService.cs",
+              "RelativeToolTip": "CustomerService\\Services\\AuthService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAywDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T17:46:11.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "CustomerService\\Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Models\\Notification.cs",
+              "RelativeToolTip": "CustomerService\\Models\\Notification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:15:47.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "CustomerService\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Models\\Customer.cs",
+              "RelativeToolTip": "CustomerService\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:15:23.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DTOs.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\DTOs\\DTOs.cs",
+              "RelativeDocumentMoniker": "CustomerService\\DTOs\\DTOs.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\DTOs\\DTOs.cs",
+              "RelativeToolTip": "CustomerService\\DTOs\\DTOs.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA9wC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:20:20.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomerDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Data\\CustomerDbContext.cs",
+              "RelativeDocumentMoniker": "CustomerService\\Data\\CustomerDbContext.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Data\\CustomerDbContext.cs",
+              "RelativeToolTip": "CustomerService\\Data\\CustomerDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:18:02.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "CustomerService\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "CustomerService\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAiwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:17:34.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CustomerService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CustomerService\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T17:03:14.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "CustomerService.csproj",
               "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\CustomerService.csproj",
               "RelativeDocumentMoniker": "CustomerService\\CustomerService.csproj",
@@ -321,55 +605,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "CustomerService\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Services\\AuthService.cs",
-              "RelativeToolTip": "CustomerService\\Services\\AuthService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowDcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T17:46:11.264Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Models\\Notification.cs",
-              "RelativeDocumentMoniker": "CustomerService\\Models\\Notification.cs",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Models\\Notification.cs",
-              "RelativeToolTip": "CustomerService\\Models\\Notification.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T14:15:47.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "CustomerService\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Models\\Customer.cs",
-              "RelativeToolTip": "CustomerService\\Models\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T14:15:23.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "20250601170459_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Migrations\\20250601170459_InitialCreate.cs",
               "RelativeDocumentMoniker": "CustomerService\\Migrations\\20250601170459_InitialCreate.cs",
               "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Migrations\\20250601170459_InitialCreate.cs",
               "RelativeToolTip": "CustomerService\\Migrations\\20250601170459_InitialCreate.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAcwE4AAAAAAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAqwE4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T19:19:14.87Z"
+              "WhenOpened": "2025-06-01T19:19:14.87Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 32,
+              "Title": "ApiGateway.csproj",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\ApiGateway.csproj",
+              "RelativeDocumentMoniker": "ApiGateway\\ApiGateway.csproj",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\ApiGateway.csproj",
+              "RelativeToolTip": "ApiGateway\\ApiGateway.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-02T17:22:11.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Payment.http",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Payment.http",
+              "RelativeDocumentMoniker": "Payment\\Payment.http",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\Payment\\Payment.http",
+              "RelativeToolTip": "Payment\\Payment.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-03T15:37:52.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApiGateway\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApiGateway\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T16:32:08.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\ocelot.json",
+              "RelativeDocumentMoniker": "ApiGateway\\ocelot.json",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\ocelot.json",
+              "RelativeToolTip": "ApiGateway\\ocelot.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T16:23:42.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "ApiGateway\\Program.cs",
+              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\Program.cs",
+              "RelativeToolTip": "ApiGateway\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:27:43.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "RegisterCustomerDto.cs",
               "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\Models\\RegisterCustomerDto.cs",
               "RelativeDocumentMoniker": "ApiGateway\\Models\\RegisterCustomerDto.cs",
@@ -377,11 +691,12 @@
               "RelativeToolTip": "ApiGateway\\Models\\RegisterCustomerDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T22:43:53.865Z"
+              "WhenOpened": "2025-06-02T22:43:53.865Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 38,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\appsettings.json",
               "RelativeDocumentMoniker": "ApiGateway\\appsettings.json",
@@ -389,47 +704,12 @@
               "RelativeToolTip": "ApiGateway\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-02T16:37:54.252Z"
+              "WhenOpened": "2025-06-02T16:37:54.252Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DTOs.cs",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\DTOs\\DTOs.cs",
-              "RelativeDocumentMoniker": "CustomerService\\DTOs\\DTOs.cs",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\DTOs\\DTOs.cs",
-              "RelativeToolTip": "CustomerService\\DTOs\\DTOs.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAYwC8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T14:20:20.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CustomerDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Data\\CustomerDbContext.cs",
-              "RelativeDocumentMoniker": "CustomerService\\Data\\CustomerDbContext.cs",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Data\\CustomerDbContext.cs",
-              "RelativeToolTip": "CustomerService\\Data\\CustomerDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T14:18:02.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "CustomerService\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "CustomerService\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAIwGkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T14:17:34.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 39,
               "Title": "ApiGateway.http",
               "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\ApiGateway.http",
               "RelativeDocumentMoniker": "ApiGateway\\ApiGateway.http",
@@ -437,11 +717,12 @@
               "RelativeToolTip": "ApiGateway\\ApiGateway.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-06-02T16:31:23.436Z"
+              "WhenOpened": "2025-06-02T16:31:23.436Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 41,
               "Title": "CustomerDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\Migrations\\CustomerDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "CustomerService\\Migrations\\CustomerDbContextModelSnapshot.cs",
@@ -449,11 +730,12 @@
               "RelativeToolTip": "CustomerService\\Migrations\\CustomerDbContextModelSnapshot.cs",
               "ViewState": "AQIAADEAAAAAAAAAAAAgwBEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T19:19:15.806Z"
+              "WhenOpened": "2025-06-01T19:19:15.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 40,
               "Title": "ApiGateway",
               "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\ApiGateway\\ApiGateway.csproj",
               "RelativeDocumentMoniker": "ApiGateway\\ApiGateway.csproj",
@@ -465,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 42,
               "Title": "CustomerService.http",
               "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\CustomerService.http",
               "RelativeDocumentMoniker": "CustomerService\\CustomerService.http",
@@ -473,23 +755,12 @@
               "RelativeToolTip": "CustomerService\\CustomerService.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-06-01T19:19:03.669Z"
+              "WhenOpened": "2025-06-01T19:19:03.669Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BookingService.http",
-              "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\BookingService.http",
-              "RelativeDocumentMoniker": "BookingService\\BookingService.http",
-              "ToolTip": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\BookingService\\BookingService.http",
-              "RelativeToolTip": "BookingService\\BookingService.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-06-02T16:31:06.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 43,
               "Title": "CustomerService",
               "DocumentMoniker": "C:\\Users\\grant\\Documents\\GitHub\\DistributedHome\\CabBookingPlatform\\CustomerService\\CustomerService.csproj",
               "RelativeDocumentMoniker": "CustomerService\\CustomerService.csproj",

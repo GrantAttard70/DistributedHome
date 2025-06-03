@@ -8,7 +8,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Use the correct connection string key: "CustomerDb"
 builder.Services.AddDbContext<BookingDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("CustomerDb"),
