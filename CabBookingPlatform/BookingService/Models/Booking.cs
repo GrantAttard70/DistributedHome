@@ -4,25 +4,24 @@ namespace BookingService.Models
 {
     public class Booking
     {
-        public int BookingId { get; set; }
+        public int Id { get; set; }
 
         [Required]
-        public string StartLocation { get; set; } = string.Empty;
+        public string StartLocation { get; set; }
 
         [Required]
-        public string EndLocation { get; set; } = string.Empty;
+        public string EndLocation { get; set; }
 
         [Required]
-        public DateTime BookingTime { get; set; }
+        public DateTime TripDateTime { get; set; }
 
-        [Required]
+        [Range(1, 10)]
         public int Passengers { get; set; }
 
         [Required]
-        public string CabType { get; set; } = "Economic"; // Economic, Premium, Executive
+        [RegularExpression("Economic|Premium|Executive")]
+        public string CabType { get; set; }
 
-        [Required]
-        public int CustomerId { get; set; } // from JWT
+        public bool IsPast => TripDateTime < DateTime.Now;
     }
-
 }

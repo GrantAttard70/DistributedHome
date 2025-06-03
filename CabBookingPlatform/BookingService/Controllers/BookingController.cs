@@ -1,83 +1,60 @@
 ﻿using BookingService.Data;
 using BookingService.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Security.Claims;
+using Microsoft.EntityFrameworkCore;
 
-[ApiController]
-[Route("api/bookings")]
-public class BookingController : ControllerBase
+namespace BookingService.Controllers
 {
-    private readonly BookingDbContext _context;
-
-    public BookingController(BookingDbContext context)
+    [Route("api/[controller]")]
+    [ApiController]
+    public class BookingController : ControllerBase
     {
-        _context = context;
-    }
+        private readonly BookingDbContext _context;
 
-    private bool TryGetUserId(out int userId)
-    {
-        userId = 0;
-        var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-
-        if (string.IsNullOrEmpty(userIdClaim))
+        public BookingController(BookingDbContext context)
         {
-            Console.WriteLine("[BookingController] User ID claim is missing.");
-            return false;
+            _context = context;
         }
 
-        if (!int.TryParse(userIdClaim, out userId))
+        // POST: api/Booking
+        [HttpPost]
+        public async Task<IActionResult> CreateBooking([FromBody] Booking booking)
         {
-            Console.WriteLine($"[BookingController] User ID claim is not a valid int: '{userIdClaim}'");
-            return false;
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            _context.Bookings.Add(booking);
+            await _context.SaveChangesAsync();
+            return CreatedAtAction(nameof(GetBooking), new { id = booking.Id }, booking);
         }
 
-        Console.WriteLine($"[BookingController] User ID parsed successfully: {userId}");
-        return true;
-    }
+        // GET: api/Booking/current
+        [HttpGet("current")]
+        public async Task<IActionResult> GetCurrentBookings()
+        {
+            var current = await _context.Bookings
+                .Where(b => b.TripDateTime >= DateTime.Now)
+                .ToListAsync();
+            return Ok(current);
+        }
 
-    [Authorize]
-    [HttpPost]
-    public async Task<IActionResult> CreateBooking([FromBody] Booking booking)
-    {
-        if (!TryGetUserId(out int customerId))
-            return Unauthorized("Invalid user ID.");
+        // GET: api/Booking/past
+        [HttpGet("past")]
+        public async Task<IActionResult> GetPastBookings()
+        {
+            var past = await _context.Bookings
+                .Where(b => b.TripDateTime < DateTime.Now)
+                .ToListAsync();
+            return Ok(past);
+        }
 
-        booking.CustomerId = customerId;
-
-        _context.Bookings.Add(booking);
-        await _context.SaveChangesAsync();
-
-        return Ok(booking);
-    }
-
-    [Authorize]
-    [HttpGet("current")]
-    public IActionResult GetCurrentBookings()
-    {
-        if (!TryGetUserId(out int customerId))
-            return Unauthorized("Invalid user ID.");
-
-        var current = _context.Bookings
-            .Where(b => b.CustomerId == customerId && b.BookingTime >= DateTime.UtcNow)
-            .OrderBy(b => b.BookingTime)
-            .ToList();
-
-        return Ok(current);
-    }
-
-    [Authorize]
-    [HttpGet("past")]
-    public IActionResult GetPastBookings()
-    {
-        if (!TryGetUserId(out int customerId))
-            return Unauthorized("Invalid user ID.");
-
-        var past = _context.Bookings
-            .Where(b => b.CustomerId == customerId && b.BookingTime < DateTime.UtcNow)
-            .OrderByDescending(b => b.BookingTime)
-            .ToList();
-
-        return Ok(past);
+        // GET: api/Booking/5
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetBooking(int id)
+        {
+            var booking = await _context.Bookings.FindAsync(id);
+            if (booking == null) return NotFound();
+            return Ok(booking);
+        }
     }
 }
