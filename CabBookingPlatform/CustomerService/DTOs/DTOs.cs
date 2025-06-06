@@ -50,4 +50,10 @@ namespace CustomerService.DTOs
         public string UserId { get; set; } = null!;
     }
 
+    public class BookingCompletedEvent
+    {
+        public string UserId { get; set; } = null!;
+    }
+
+
 }

@@ -35,7 +35,7 @@ namespace BookingService.Controllers
             var count = await _context.Bookings.CountAsync(b => b.CustomerId == booking.CustomerId);
             if (count == 3)
             {
-                await _eventPublisher.PublishBookingCompleted(booking.CustomerId);
+                await _eventPublisher.PublishBookingCompleted(booking.CustomerId.ToString());
             }
 
             return CreatedAtAction(nameof(GetBooking), new { id = booking.Id }, booking);
