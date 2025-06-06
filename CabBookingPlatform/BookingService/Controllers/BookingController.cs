@@ -1,5 +1,7 @@
 ﻿using BookingService.Data;
 using BookingService.Models;
+using BookingService.Services;
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,11 +12,14 @@ namespace BookingService.Controllers
     public class BookingController : ControllerBase
     {
         private readonly BookingDbContext _context;
+        private readonly IEventPublisher _eventPublisher; 
 
-        public BookingController(BookingDbContext context)
+        public BookingController(BookingDbContext context, IEventPublisher eventPublisher)
         {
             _context = context;
+            _eventPublisher = eventPublisher; 
         }
+
 
         // POST: api/Booking
         [HttpPost]
@@ -25,8 +30,17 @@ namespace BookingService.Controllers
 
             _context.Bookings.Add(booking);
             await _context.SaveChangesAsync();
+
+            // Check total bookings for user
+            var count = await _context.Bookings.CountAsync(b => b.CustomerId == booking.CustomerId);
+            if (count == 3)
+            {
+                await _eventPublisher.PublishBookingCompleted(booking.CustomerId);
+            }
+
             return CreatedAtAction(nameof(GetBooking), new { id = booking.Id }, booking);
         }
+
 
         // GET: api/Booking/current
         [HttpGet("current")]

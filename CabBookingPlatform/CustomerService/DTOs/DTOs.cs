@@ -44,4 +44,10 @@ namespace CustomerService.DTOs
         public string Message { get; set; } = null!;
         public DateTime CreatedAt { get; set; }
     }
+
+    public class DiscountEventRequest
+    {
+        public string UserId { get; set; } = null!;
+    }
+
 }

@@ -1,4 +1,5 @@
 using BookingService.Data;
+using BookingService.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHttpClient<IEventPublisher, EventPublisher>();
+
 
 builder.Services.AddDbContext<BookingDbContext>(options =>
     options.UseMySql(

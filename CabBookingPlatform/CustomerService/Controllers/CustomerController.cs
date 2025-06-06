@@ -82,11 +82,14 @@ namespace CustomerService.Controllers
             return customer == null ? NotFound() : Ok(new CustomerResponse(customer));
         }
 
+
         [Authorize]
         [HttpGet("notifications")]
         public async Task<IActionResult> GetNotifications()
         {
-            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+            var userIdClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (string.IsNullOrEmpty(userIdClaim) || !int.TryParse(userIdClaim, out var userId))
+                return Unauthorized();
 
             var notifications = await _context.Notifications
                 .Where(n => n.CustomerId == userId)
@@ -101,5 +104,6 @@ namespace CustomerService.Controllers
 
             return Ok(notifications);
         }
+
     }
 }
