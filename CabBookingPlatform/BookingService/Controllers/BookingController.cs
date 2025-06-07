@@ -1,6 +1,7 @@
 ﻿using BookingService.Data;
 using BookingService.Models;
 using BookingService.Services;
+using BookingService.Events;
 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -31,11 +32,31 @@ namespace BookingService.Controllers
             _context.Bookings.Add(booking);
             await _context.SaveChangesAsync();
 
+            _ = Task.Run(async () =>
+            {
+                await Task.Delay(TimeSpan.FromSeconds(3));
+                Console.WriteLine("Notif sent");
+
+                var cabReadyEvent = new CabReadyNotificationEvent
+                {
+                    BookingId = booking.Id,
+                    CustomerId = int.Parse(booking.CustomerId),
+                    StartLocation = booking.StartLocation,
+                    EndLocation = booking.EndLocation,
+                    TripDateTime = booking.TripDateTime,
+                    Message = $"Your cab is ready to pick you up at {booking.StartLocation} for your trip to {booking.EndLocation}."
+                };
+
+
+                await _eventPublisher.PublishCabReadyNotification(cabReadyEvent);
+            });
+
             // Check total bookings for user
             var count = await _context.Bookings.CountAsync(b => b.CustomerId == booking.CustomerId);
             if (count == 3)
             {
-                await _eventPublisher.PublishBookingCompleted(booking.CustomerId.ToString());
+                await _eventPublisher.PublishBookingCompleted(int.Parse(booking.CustomerId));
+
             }
 
             return CreatedAtAction(nameof(GetBooking), new { id = booking.Id }, booking);

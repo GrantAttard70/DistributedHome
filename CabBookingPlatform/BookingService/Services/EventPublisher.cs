@@ -1,6 +1,7 @@
 ﻿using System.Text;
 using System.Text.Json;
 using Microsoft.Extensions.Logging;
+using BookingService.Events;
 
 namespace BookingService.Services
 {
@@ -17,7 +18,7 @@ namespace BookingService.Services
             _logger = logger;
         }
 
-        public async Task PublishBookingCompleted(string userId)
+        public async Task PublishBookingCompleted(int userId)
         {
             var endpoint = _config["CustomerService:DiscountNotificationUrl"];
             if (string.IsNullOrWhiteSpace(endpoint))
@@ -45,6 +46,37 @@ namespace BookingService.Services
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error sending discount notification for user {UserId}", userId);
+            }
+        }
+
+        public async Task PublishCabReadyNotification(CabReadyNotificationEvent notification)
+        {
+            var endpoint = _config["CustomerService:CabReadyNotificationUrl"];
+            if (string.IsNullOrWhiteSpace(endpoint))
+            {
+                _logger.LogError("CabReadyNotificationUrl is not configured.");
+                return;
+            }
+
+            var json = JsonSerializer.Serialize(notification);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            try
+            {
+                var response = await _httpClient.PostAsync(endpoint, content);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    _logger.LogWarning("Cab ready notification failed for booking {BookingId}. Status code: {StatusCode}", notification.BookingId, response.StatusCode);
+                }
+                else
+                {
+                    _logger.LogInformation("Cab ready notification sent for booking {BookingId}", notification.BookingId);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error sending cab ready notification for booking {BookingId}", notification.BookingId);
             }
         }
     }

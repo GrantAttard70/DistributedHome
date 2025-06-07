@@ -1,7 +1,8 @@
-﻿namespace BookingService.Services
+﻿using BookingService.Events;
+
+public interface IEventPublisher
 {
-    public interface IEventPublisher
-    {
-        Task PublishBookingCompleted(string userId);
-    }
+    Task PublishBookingCompleted(int userId);
+
+    Task PublishCabReadyNotification(CabReadyNotificationEvent notification); 
 }

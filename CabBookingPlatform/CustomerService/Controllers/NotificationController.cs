@@ -60,6 +60,23 @@ public class NotificationController : ControllerBase
 
         return Ok(notifications);
     }
+    [HttpPost("cabready")]
+    public async Task<IActionResult> ReceiveCabReadyNotification([FromBody] CabReadyNotificationEvent notification)
+    {
+        if (notification == null)
+            return BadRequest("Notification payload is missing");
+
+        // Add notification to DB or send it to the user
+        _context.Notifications.Add(new Notification
+        {
+            CustomerId = notification.CustomerId,
+            Message = notification.Message,
+            CreatedAt = DateTime.UtcNow
+        });
+
+        await _context.SaveChangesAsync();
+        return Ok("Cab ready notification received");
+    }
 
 }
 
