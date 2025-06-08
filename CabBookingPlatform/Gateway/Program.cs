@@ -1,7 +1,7 @@
 using Microsoft.OpenApi.Models;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
-
+var corsAllowAll = Environment.GetEnvironmentVariable("ASPNETCORE_CORS_AllowAll") == "true";
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services
@@ -30,7 +30,13 @@ builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange
 builder.Services.AddOcelot(builder.Configuration);
 
 var app = builder.Build();
-
+if (corsAllowAll)
+{
+    app.UseCors(builder => builder
+        .AllowAnyOrigin()
+        .AllowAnyMethod()
+        .AllowAnyHeader());
+}
 // Middleware pipeline
 app.UseCors("AllowAll");
 

@@ -1,6 +1,7 @@
 using LocationService.Data;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +15,17 @@ builder.Services.AddDbContext<LocationDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
     ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
 builder.Services.AddHttpClient<WeatherService>();
-
+// Inside your service configuration
+builder.Services.AddAuthentication()
+    .AddJwtBearer(options => {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = false, // Disable for development
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateLifetime = false,
+        };
+    });
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

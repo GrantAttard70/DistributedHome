@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  customer-service:
+    image: customer-service
+    build:
+      context: ./CustomerService
+      dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://*:8080  # Crucial for container communication
+
+  booking-service:
+    image: booking-service
+    build:
+      context: ./BookingService
+      dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://*:8080
+
+  location-service:
+    image: location-service
+    build:
+      context: ./LocationService
+      dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://*:8080
+
+  payment-service:
+    image: payment-service
+    build:
+      context: ./Payment
+      dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://*:8080
+
+  gateway:
+    image: gateway
+    build:
+      context: ./Gateway
+      dockerfile: Dockerfile
+    ports:
+      - "5001:8080"  # Host access
+    expose:
+      - "8080"       # Container access
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://*:8080
+      # Add CORS support for browser access
+      - ASPNETCORE_CORS_AllowAll=true
+
+  cab-booking-web:
+    image: cab-booking-web
+    build:
+      context: ./CabBookingWeb
+      dockerfile: Dockerfile
+    ports:
+      - "5106:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://*:8080
+      # Point to gateway using Docker service name
+      - GatewayApiBaseUrl=http://gateway:8080
+      # Disable HTTPS redirection warnings
+      - ASPNETCORE_HTTPS_PORT=
+    depends_on:
+      - gateway
+
+# Add this at the end to ensure proper networking
+networks:
+  default:
+    driver: bridge
+    name: cab-booking-network

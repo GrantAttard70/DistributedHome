@@ -13,7 +13,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocationService", "Location
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gateway", "Gateway\Gateway.csproj", "{55346EA3-37D0-43E9-9FE6-546889112311}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabBookingWeb", "CabBookingWeb\CabBookingWeb.csproj", "{238B0A8B-EF23-4F3C-9A46-2464A3EE4A0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CabBookingWeb", "CabBookingWeb\CabBookingWeb.csproj", "{238B0A8B-EF23-4F3C-9A46-2464A3EE4A0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1D262B0B-0587-4361-B14D-A7284E7BB335}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

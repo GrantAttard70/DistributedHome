@@ -9,7 +9,8 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.IdentityModel.Tokens.Jwt;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
-
+///THIS VERSION OF THE CODE IS COMPLETELY BROKEN DUE TO ME TRYING TO GET DOCKER TO WORK.
+///THE PREVIOUS VERSION UPLOADED TO GITHUB IS MUCH MORE FUNCTIONAL
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container

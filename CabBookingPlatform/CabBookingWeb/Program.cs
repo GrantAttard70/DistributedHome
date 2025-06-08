@@ -2,7 +2,8 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Newtonsoft.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
-
+// Use the environment variable for gateway URL
+var gatewayUrl = Environment.GetEnvironmentVariable("GatewayApiBaseUrl") ?? "http://localhost:5001";
 builder.Services.AddControllersWithViews()
     .AddNewtonsoftJson(options =>
     {
