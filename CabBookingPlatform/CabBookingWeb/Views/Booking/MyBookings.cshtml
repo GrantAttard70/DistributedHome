@@ -1,0 +1,31 @@
+﻿@model List<BookingViewModel>
+
+<h2>My Bookings</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Pickup</th>
+            <th>Destination</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Status</th>
+            <th>Cab</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var booking in Model)
+        {
+            <tr>
+                <td>@booking.PickupLocation</td>
+                <td>@booking.Destination</td>
+                <td>@booking.Date.ToShortDateString()</td>
+                <td>@booking.Time</td>
+                <td>@booking.Status</td>
+                <td>@booking.CabType</td>
+                <td>€@booking.TotalPrice</td>
+            </tr>
+        }
+    </tbody>
+</table>

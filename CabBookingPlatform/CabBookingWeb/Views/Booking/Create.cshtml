@@ -1,0 +1,82 @@
+﻿@model BookingViewModel
+
+<h2>Create New Booking</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="PickupLocation"></label>
+        <input asp-for="PickupLocation" class="form-control" />
+        <span asp-validation-for="PickupLocation" class="text-danger"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Destination"></label>
+        <input asp-for="Destination" class="form-control" />
+        <span asp-validation-for="Destination" class="text-danger"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Date"></label>
+        <input asp-for="Date" type="date" class="form-control" />
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Time"></label>
+        <input asp-for="Time" type="time" class="form-control" />
+        <span asp-validation-for="Time" class="text-danger"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Passengers"></label>
+        <input asp-for="Passengers" type="number" min="1" max="8" class="form-control" />
+        <span asp-validation-for="Passengers" class="text-danger"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="CabType"></label>
+        <select asp-for="CabType" class="form-control">
+            <option value="Economic">Economic</option>
+            <option value="Premium">Premium</option>
+            <option value="Executive">Executive</option>
+        </select>
+        <span asp-validation-for="CabType" class="text-danger"></span>
+    </div>
+    
+    <button type="button" id="estimateBtn" class="btn btn-info">Estimate Fare</button>
+    <div id="fareEstimate" class="mt-3" style="display:none;">
+        <h4>Estimated Fare: <span id="estimatedAmount"></span></h4>
+    </div>
+    
+    <button type="submit" class="btn btn-primary mt-3">Confirm Booking</button>
+</form>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('#estimateBtn').click(function() {
+                var formData = {
+                    pickupLocation: $('#PickupLocation').val(),
+                    destination: $('#Destination').val(),
+                    date: $('#Date').val(),
+                    time: $('#Time').val(),
+                    passengers: $('#Passengers').val(),
+                    cabType: $('#CabType').val()
+                };
+                
+                $.ajax({
+                    url: '/Booking/EstimateFare',
+                    type: 'POST',
+                    data: formData,
+                    success: function(result) {
+                        $('#estimatedAmount').text('$' + result.totalPrice);
+                        $('#fareEstimate').show();
+                    },
+                    error: function() {
+                        alert('Error estimating fare');
+                    }
+                });
+            });
+        });
+    </script>
+}

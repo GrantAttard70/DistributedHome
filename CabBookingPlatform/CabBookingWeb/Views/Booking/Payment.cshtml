@@ -1,0 +1,31 @@
+﻿@model BookingViewModel
+
+<h2>Payment for Booking #@Model.Id</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Booking Details</h5>
+        <p class="card-text">
+            <strong>From:</strong> @Model.PickupLocation<br>
+            <strong>To:</strong> @Model.Destination<br>
+            <strong>Date:</strong> @Model.Date.ToShortDateString()<br>
+            <strong>Time:</strong> @Model.Time<br>
+            <strong>Passengers:</strong> @Model.Passengers<br>
+            <strong>Cab Type:</strong> @Model.CabType
+        </p>
+        <h4>Total: $@Model.TotalPrice</h4>
+    </div>
+</div>
+
+<form asp-action="ProcessPayment" method="post" class="mt-3">
+    <input type="hidden" name="bookingId" value="@Model.Id" />
+    <button type="submit" class="btn btn-success">Confirm Payment</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger mt-3">
+        @TempData["ErrorMessage"]
+    </div>
+}
