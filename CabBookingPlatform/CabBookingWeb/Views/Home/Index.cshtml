@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Cab Booking System";
+}
+
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="display-4">Welcome to Cab Booking System</h1>
+
+        <div class="mt-5">
+            @if (!User.Identity.IsAuthenticated)
+            {
+                <a href="/Account/Login" class="btn btn-primary btn-lg mr-3">Login</a>
+                <a href="/Account/Register" class="btn btn-secondary btn-lg">Register</a>
+            }
+            else
+            {
+                <a href="/Booking" class="btn btn-success btn-lg">Book a Ride</a>
+                <a href="/Booking/MyBookings" class="btn btn-info btn-lg ml-3">My Bookings</a>
+            }
+        </div>
+    </div>
+</div>

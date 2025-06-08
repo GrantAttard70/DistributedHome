@@ -34,7 +34,7 @@ namespace BookingService.Controllers
 
             _ = Task.Run(async () =>
             {
-                await Task.Delay(TimeSpan.FromSeconds(3));
+                await Task.Delay(TimeSpan.FromSeconds(180)); //3 minutes
                 Console.WriteLine("Notif sent");
 
                 var cabReadyEvent = new CabReadyNotificationEvent
